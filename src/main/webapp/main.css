@@ -1,0 +1,45 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: teal;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+form table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+td:first-child {
+    text-align: left;
+    padding-right: 15px;
+    width: 90px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    padding: 3px;
+    border: 1px solid #777;
+}
+
+input[type="submit"] {
+    padding: 3px 8px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
